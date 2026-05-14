@@ -35,7 +35,10 @@ npx playwright install
 
 ### 4. Configure environment variables
 
-Copy the example environment file and fill in your values:
+Copy the example environment file and fill in your values.
+
+**IMPORTANT:** These example tests require an existing Ezra Member test account. The account should be configured with a
+user who has already set their date of birth between the ages of 35 and 85 years old.
 
 ```bash
 cp .env.pw.example .env.pw
